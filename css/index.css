@@ -1,0 +1,36 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  text-align: center;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#questions {
+  font-family: 'Shadows Into Light', cursive;
+}
+#ruby {
+  display: none;
+  text-align: center;
+}
+#csharp {
+  display: none;
+  text-align: center;
+}
+#rabits {
+  display: none;
+  text-align: center;
+}
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+}
+.jumbotron {
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    px;
+}
+}

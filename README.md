@@ -8,7 +8,7 @@
 ## Detailed Description
 
 Pizza Parlor
-Create a website for a pizza company where a user can choose one or more individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
+This is an application for ordering a pizza where a user can choose from one  individual toppings (cheese, pepperoni, artichoke, anchovy, etc) and a size to order a pizza and see the final cost.
 
 Allow the user to choose toppings and size for the pizza they'd like to order.
 Create a pizza object constructor with properties for toppings and size.
