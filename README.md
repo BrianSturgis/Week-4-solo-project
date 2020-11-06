@@ -25,7 +25,8 @@ Keep it simple to start! You do not need to have a complex formula for determini
 The project should automatically launch using your default application(s).
 
 ## Known Bugs
--  
+
+
 
 ## Support and contact details
 sturujisu@gmail.com
