@@ -28,6 +28,8 @@ The project should automatically launch using your default application(s).
 sturujisu@gmail.com
 
 
+## specs
+
 ## Technologies Used
 * HTML
 * CSS
