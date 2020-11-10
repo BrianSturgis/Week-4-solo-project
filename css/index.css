@@ -16,14 +16,10 @@ body {
   display: none;
   text-align: center;
 }
-#csharp {
+#Thank-you-message {
   display: none;
-  text-align: center;
 }
-#rabits {
-  display: none;
-  text-align: center;
-}
+
 h1 {
   font-family: 'Shadows Into Light', cursive;
 }
