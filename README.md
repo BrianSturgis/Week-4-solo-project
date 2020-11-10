@@ -21,7 +21,7 @@ This is an application for ordering a pizza where a user can choose from one  in
 The project should automatically launch using your default application(s).
 
 ## Known Bugs
-
+- this applications core functions are not working at this point. 
 
 
 ## Support and contact details
