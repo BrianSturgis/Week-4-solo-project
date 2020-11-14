@@ -11,7 +11,7 @@ function Order(pie, sauce, firstTopping, size, updatePrice) {
   this.size = size;
   this.updatePrice = updatePrice;
 }
-
+Order.prototype.finalOrder =
 let Order1 = Order();
 
 
