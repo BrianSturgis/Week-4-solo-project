@@ -29,9 +29,12 @@ sturujisu@gmail.com
 
 
 ## specs
-|TEST      |CODE  |EXPECT |
+|TEST      CODE  |EXPECT |
 |--- |--- |--- |
+sdfasdfasdf
+sdfasdfasdf
 
+asdfasdfasdf
 
 
 ## Technologies Used
