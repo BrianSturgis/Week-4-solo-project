@@ -8,10 +8,11 @@ function Order(pie, sauce, firstTopping, size) {
   this.sauce = sauce;
   this.firstTopping = firstTopping;
   this.size = size;
-  
 }
-  Order.prototype.finalOrder = function() {
-  let cost = (this.pie =)
+let total = new Order();
+console.log(total);
+
+  
 
 
 $(document).ready(function(){
@@ -22,7 +23,9 @@ $(document).ready(function(){
     let firstTopping = parseInt($("#question3").val());
     let size = parseInt($("#question4").val());
     let newOrder = new Order(pie, sauce, firstTopping, size);
-    
+    console.log(newOrder);
+
+   
   });
 
 

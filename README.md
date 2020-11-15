@@ -8,7 +8,7 @@
 ## Detailed Description
 
 Pizza Parlor
-This is an application for ordering a pizza where a user can choose from one  individual toppings  and a size to order a pizza and see the final cost.
+This is an application for ordering a pizza where a user can choose from one  individual toppings and a size to order a pizza and see the final cost.
 
 
 ## Setup/Installation Requirements
