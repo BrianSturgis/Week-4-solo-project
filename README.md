@@ -29,14 +29,11 @@ sturujisu@gmail.com
 
 
 ## specs
-|TEST      CODE  |EXPECT |
-|--- |--- |--- |
-sdfasdfasdf
-sdfasdfasdf
 
-asdfasdfasdf
-
-
+            | Test   |                                         |  expect |
+            get form values                                    creates object with integers
+            calculates price                                   creates sum of integers in object
+            produces output                                    creates value to display
 ## Technologies Used
 * HTML
 * CSS
