@@ -12,10 +12,6 @@ function Order(pie, sauce, firstTopping, size) {
   this.size = size;
 }
 
-// Order.prototype.totalCost = function () {
-//   return this.pie + 
-// }
-
 
 $(document).ready(function(){
   $("form#questions").submit(function(event){
