@@ -5,8 +5,14 @@ function Order(pie, sauce, firstTopping, size) {
   this.size = size;
 }
 
-// Order.prototype.finalCost = function(total);
-  
+Order.prototype.finalCost = function(total) {
+  let array = cost
+  let sum = 0;
+  array.forEach(function(element){
+    sum += element;
+    console.log(total);
+  });
+}
 
 $(document).ready(function(){ 
   $("form#questions").submit(function(event){
@@ -17,9 +23,6 @@ $(document).ready(function(){
     let size = parseInt($("#question4").val());
     let cost = new Order(pie, sauce, firstTopping, size);
     let total = Object.values(cost);
-    console.log(total);
-   
+    // console.log(total,pie);
   });
-
-
 });

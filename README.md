@@ -22,6 +22,7 @@ The project should automatically launch using your default application(s).
 
 ## Known Bugs
 - this applications core functions are not working at this point. 
+- it does take in a user input and create an objectn then makes the opbject an array
 
 
 ## Support and contact details
