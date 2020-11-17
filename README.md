@@ -1,6 +1,6 @@
 # Week 4 Friday project "Pizza Parlor"
 
-##### HTML,CSS, and Javascript , 11/6/2020
+##### HTML,CSS, and Javascript.   11/6/2020
 
 #### By **Brian Sturgis**
 

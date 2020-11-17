@@ -1,8 +1,3 @@
-
-//  get form values
-//  calculates price
-//  calculates produces output
-
 function Order(pie, sauce, firstTopping, size) {
   this.pie = pie;
   this.sauce = sauce;
@@ -11,8 +6,9 @@ function Order(pie, sauce, firstTopping, size) {
 }
 
 Order.prototype.finalCost = function(){
-  
+  let final = (a,b) => a + b
 };
+
 
 
 $(document).ready(function(){ 
@@ -23,7 +19,10 @@ $(document).ready(function(){
     let firstTopping = parseInt($("#question3").val());
     let size = parseInt($("#question4").val());
     let cost = new Order(pie, sauce, firstTopping, size);
-    console.log(cost);
+    let total = Object.values(cost);
+
+    console.log(total);
+
    
   });
 });
