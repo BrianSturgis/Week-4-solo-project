@@ -31,9 +31,9 @@ sturujisu@gmail.com
 ## specs
 
             | Test   |                                         |  expect |
-            get form values                                    creates object with integers
-            calculates price                                   creates sum of integers in object
-            produces output                                    creates value to display
+            1.get form values                                  creates object with integers
+            2.creates an array of integer values               creates array of integers in var
+            3.creates sum of integers                          creates sum in var to display
 ## Technologies Used
 * HTML
 * CSS
