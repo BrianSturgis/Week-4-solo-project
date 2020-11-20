@@ -18,7 +18,7 @@
         <div class="question">
           <label for="add1">CHOOSE A PIE</label>
           <select class="form-control" id="question1">
-            <option>*</option>
+            <option value="0">*</option>
             <option value="1">Cheese</option> 
             <option value="1">Pepperoni</option>
             <option value="1">Vegan Pie</option>
@@ -28,7 +28,7 @@
         <div class="question">
           <label for="add2">SAUCE</label>
           <select class="form-control" id="question2">
-            <option>*</option>
+            <option value="0">*</option>
             <option value="1">Extra Red Sauce</option>
             <option value="1">Garlic Cream</option>
           </select>
@@ -36,7 +36,7 @@
         <div class="question">
           <label for="add3">FIRST TOPPING</label>
           <select name="q1" class="form-control" id="question3">
-            <option>*</option>
+            <option value="0">*</option>
             <option value="4">Artichoke</option>
             <option value="4">Anchovy</option>
             <option value="2">Mushroom</option>
@@ -47,7 +47,7 @@
         <div class="question">
           <label for="add4">SIZE</label>
           <select name="q2"class="form-control" id="question4">
-            <option>*</option>
+            <option value="0">*</option>
             <option value="20">Small</option>
             <option value="25">Medium</option>
             <option value="30">Large</option>
@@ -55,14 +55,12 @@
           </select> 
         </div>
         <button type="submit" class="btn">CLICK HERE </button>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card-answer1" id="Thank-you-message">
-              <h1>
-                Grazie Mille Tuti
-              </h1>
+        <div class="container">
+            <div class="price" id="message-price">
+              <p>
+                Your pizza price is $
+              </p>
             </div>
-          </div>
         </div> 
       </form>
     </div>

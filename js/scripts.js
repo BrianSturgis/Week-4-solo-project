@@ -3,17 +3,11 @@ function Order(pie, sauce, firstTopping, size) {
   this.sauce = sauce;
   this.firstTopping = firstTopping;
   this.size = size;
+  this.totalPrice = 0;
 }
-
-Order.prototype.finalCost = function(total) {
-  let array = cost
-  let sum = 0;
-  array.forEach(function(element){
-    sum += element;
-    console.log(total);
-  });
+Order.prototype.finalCost = function(){
+  this.totalPrice = this.pie + this.sauce + this.firstTopping + this.size
 }
-
 $(document).ready(function(){ 
   $("form#questions").submit(function(event){
     event.preventDefault();
@@ -21,8 +15,8 @@ $(document).ready(function(){
     let sauce = parseInt($("#question2").val());
     let firstTopping = parseInt($("#question3").val());
     let size = parseInt($("#question4").val());
-    let cost = new Order(pie, sauce, firstTopping, size);
-    let total = Object.values(cost);
-    // console.log(total,pie);
+    let pizza = new Order(pie, sauce, firstTopping, size);
+    pizza.finalCost();
+    $("#message-price").text(pizza.totalPrice);
   });
 });

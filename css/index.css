@@ -9,6 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
 #questions {
   font-family: 'Shadows Into Light', cursive;
 }
@@ -16,17 +17,9 @@ body {
   display: none;
   text-align: center;
 }
-#Thank-you-message {
-  display: none;
-}
+
 
 h1 {
   font-family: 'Shadows Into Light', cursive;
 }
-.jumbotron {
- 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    px;
 
-}

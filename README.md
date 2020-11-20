@@ -29,12 +29,36 @@ The project should automatically launch using your default application(s).
 sturujisu@gmail.com
 
 
-## specs
+## Tables
 
-            | Test   |                                         |  expect |
-            1.get form values                                  creates object with integers
-            2.creates an array of integer values               creates array of integers in var
-            3.creates sum of integers                          creates sum in var to display
+| Order.prototype.finalCost |  |
+| ------| -----------|
+| test:   | path to data files to supply the data that will be passed into templates. |
+| code: | engine to be used for processing templates. Handlebars is the default. |
+| expect:  | extension to be used for dest files. |
+
+
+
+| Order.prototype.finalCost |  |
+| ------| -----------|
+| test:   | path to data files to supply the data that will be passed into templates. |
+| code: | engine to be used for processing templates. Handlebars is the default. |
+| expect:  | extension to be used for dest files. |
+
+
+| Order.prototype.finalCost |  |
+| ------| -----------|
+| test:   | path to data files to supply the data that will be passed into templates. |
+| code: | engine to be used for processing templates. Handlebars is the default. |
+| expect:  | extension to be used for dest files. |
+
+| Order.prototype.finalCost |  |
+| ------| -----------|
+| test:   | path to data files to supply the data that will be passed into templates. |
+| code: | engine to be used for processing templates. Handlebars is the default. |
+| expect:  | extension to be used for dest files. |
+
+
 ## Technologies Used
 * HTML
 * CSS
