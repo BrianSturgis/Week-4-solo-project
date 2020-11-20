@@ -32,7 +32,7 @@ The project should automatically launch using your default application(s).
 
 
 ## Support and contact details
-sturujisu@gmail.com
+email Brian Sturgis @ <sturujisu@gmail.com>
 
 
 ## Tables
