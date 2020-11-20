@@ -8,7 +8,7 @@
 ## Detailed Description
 
 Pizza Parlor
-This is an application for ordering a pizza where a user can choose from individual toppings and a size to order a pizza and see the final cost.
+This is an application for ordering a pizza where a user can choose from individual toppings and a size to order a pizza and see the final cost.  It uses Object Oriented Javascript to collect data and place into and object.  It uses a prototype to create the sum of the key values of the object to calculate a price.  This is an early project for a student software engineer.  "Ciao Allora" is an Northern Italian slang term for "hello! well?".  It is used as a casual greeting in cities such a Milan.   
 
 
 ## Setup/Installation Requirements
@@ -21,7 +21,8 @@ This is an application for ordering a pizza where a user can choose from individ
 The project should automatically launch using your default application(s).
 
 ## Known Bugs
-- this application does not add a "$" to finalCost
+  -none at this time as this application is the bare bones of an application
+  -there are three bootsrtap libraries in ./css/ any version with out these brings up console warnings and project size is so small that they have been left in.  
 
 
 
