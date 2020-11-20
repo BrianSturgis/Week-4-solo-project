@@ -24,6 +24,11 @@ The project should automatically launch using your default application(s).
   -none at this time as this application is the bare bones of an application
   -there are three bootsrtap libraries in ./css/ any version with out these brings up console warnings and project size is so small that they have been left in.  
 
+## Stretch goals
+  -only diplaying the "$" with cost
+  -display items and hide input forms
+  -additional css styling and some sass
+  
 
 
 ## Support and contact details
