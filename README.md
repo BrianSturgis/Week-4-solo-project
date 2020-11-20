@@ -8,7 +8,7 @@
 ## Detailed Description
 
 Pizza Parlor
-This is an application for ordering a pizza where a user can choose from one  individual toppings and a size to order a pizza and see the final cost.
+This is an application for ordering a pizza where a user can choose from individual toppings and a size to order a pizza and see the final cost.
 
 
 ## Setup/Installation Requirements
@@ -21,8 +21,8 @@ This is an application for ordering a pizza where a user can choose from one  in
 The project should automatically launch using your default application(s).
 
 ## Known Bugs
-- this applications core functions are not working at this point. 
-- it does take in a user input and create an objectn then makes the opbject an array
+- this application does not add a "$" to finalCost
+
 
 
 ## Support and contact details
@@ -31,32 +31,22 @@ sturujisu@gmail.com
 
 ## Tables
 
-| Order.prototype.finalCost |  |
+| function Order {}|  |
 | ------| -----------|
-| test:   | path to data files to supply the data that will be passed into templates. |
-| code: | engine to be used for processing templates. Handlebars is the default. |
-| expect:  | extension to be used for dest files. |
+| test:   | it will create and 'Order' object|
+|  
+| expect:  | (Order).toEqual{pie,sauce,firstTopping,size,totalPrice}. |
 
-
-
-| Order.prototype.finalCost |  |
-| ------| -----------|
-| test:   | path to data files to supply the data that will be passed into templates. |
-| code: | engine to be used for processing templates. Handlebars is the default. |
-| expect:  | extension to be used for dest files. |
 
 
 | Order.prototype.finalCost |  |
 | ------| -----------|
-| test:   | path to data files to supply the data that will be passed into templates. |
-| code: | engine to be used for processing templates. Handlebars is the default. |
-| expect:  | extension to be used for dest files. |
+| test:   | will total the sum of object keys |
+| 
+| expect:  | (finalCost) .toEqual(sum of object values) |
 
-| Order.prototype.finalCost |  |
-| ------| -----------|
-| test:   | path to data files to supply the data that will be passed into templates. |
-| code: | engine to be used for processing templates. Handlebars is the default. |
-| expect:  | extension to be used for dest files. |
+
+
 
 
 ## Technologies Used
@@ -66,6 +56,7 @@ sturujisu@gmail.com
 * Javascript
 * jQuery
 * Coffee
+  
 
 
 ### License
